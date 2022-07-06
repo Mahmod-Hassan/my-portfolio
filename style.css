@@ -73,3 +73,7 @@ h2 {
 #baby-web-developer {
     border-left: 7px solid tomato;
 }
+
+footer p {
+    text-align: center;
+}
