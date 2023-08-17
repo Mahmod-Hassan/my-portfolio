@@ -1,0 +1,8 @@
+a:hover {
+  cursor: pointer;
+}
+.active {
+  /* border-bottom: 2px solid rgb(238, 7, 95); */
+  color: rgb(238, 7, 95);
+  font-weight: 500;
+}

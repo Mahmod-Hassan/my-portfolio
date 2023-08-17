@@ -1,0 +1,103 @@
+[
+  {
+    "id": "01",
+    "title": "Mobile Bazar",
+    "type": "Resell Product",
+    "img": "https://i.ibb.co/7g4Xh2t/resell-products.png",
+    "technologies": [
+      "Tailwind Css",
+      "React",
+      "Node Js",
+      "Mongoose",
+      "Firebase",
+      "MongoDB",
+      "Express.js",
+      "Stripe Payment-Getway"
+    ],
+    "features": [
+      "Sellers can add any second-hand product.",
+      "Users can buy any product by giving the user number, address, etc.",
+      "In the dashboard, admin can delete any user and can make an admin"
+    ],
+    "links": [
+      {
+        "url": "https://resale-products-fee4b.firebaseapp.com/",
+        "title": "Live Demo"
+      },
+      {
+        "url": "https://github.com/Mahmod-Hassan/resale-products-client",
+        "title": "Github Client"
+      },
+      {
+        "url": "https://github.com/Mahmod-Hassan/resale-products-server",
+        "title": "Github Server"
+      }
+    ]
+  },
+  {
+    "id": "02",
+    "title": "Easy Doc",
+    "type": "Documentation",
+    "img": "https://i.ibb.co/QMTJzMh/team-project.png",
+    "technologies": [
+      "Tailwind Css",
+      "React",
+      "Node Js",
+      "Firebase",
+      "MongoDB",
+      "Express.js"
+    ],
+    "features": [
+      "Users can quickly move from one page to another using Navbar.",
+      "Users can sign in with Facebook, Google, GitHub, and email-password.",
+      "Have a dashboard route. Admin can delete any user."
+    ],
+    "links": [
+      {
+        "url": "https://dreamy-zuccutto-8ce0d7.netlify.app",
+        "title": "Live Demo"
+      },
+      {
+        "url": "https://github.com/harunrashid4419/Easy_doc/tree/main",
+        "title": "Github Client"
+      },
+      {
+        "url": "https://github.com/harunrashid4419/easy-doc-server",
+        "title": "Github Server"
+      }
+    ]
+  },
+  {
+    "id": "03",
+    "title": "Tasty Food",
+    "type": "Food Review Website",
+    "img": "https://i.ibb.co/RSFVMHv/fruits-panda.png",
+    "technologies": [
+      "Tailwind Css",
+      "React",
+      "Node Js",
+      "Firebase",
+      "MongoDB",
+      "Express.js"
+    ],
+    "features": [
+      "Users can sign In with Google, GitHub, and email-password.",
+      "Users can add reviews and also can delete user reviews.",
+      "The kitchen owner can add food items and the item will be sorted by date."
+    ],
+    "links": [
+      {
+        "url": "https://fruits-panda.web.app/",
+        "title": "Live Demo"
+      },
+      {
+        "url": "https://github.com/Mahmod-Hassan/assigntment-11-client",
+        "title": "Github Client"
+      },
+      {
+        "url": "https://github.com/Mahmod-Hassan/assigntment-11-server",
+        "title": "Github Server"
+      }
+    ]
+  }
+]
