@@ -1,7 +1,49 @@
+import {
+  FaFacebook,
+  FaGithub,
+  FaLinkedin,
+  FaRegEnvelope,
+  FaSquarePhone,
+  FaWhatsapp,
+} from "react-icons/fa6";
+
 const ContactMe = () => {
   return (
-    <div className="h-screen" name="Contact">
-      this is contact me page
+    <div name="Contact" className="m-10">
+      <h1 className="text-3xl font-bold text-center my-10">Contact Me</h1>
+      <div className="flex flex-col md:flex-row justify-between">
+        <div className="md:w-1/2">
+          <h3 className="text-xl font-medium">Address</h3>
+          <p>Chittagong, Bangladesh</p>
+          <FaSquarePhone className="text-xl mr-2 text-green-500 inline" />{" "}
+          +8801314890047 <br />
+          <FaSquarePhone className="text-xl mr-2 text-green-500 inline" />{" "}
+          +8801962700078
+          <br />
+          <FaRegEnvelope className="text-xl mr-2 text-green-500 inline" />{" "}
+          mahmodhasan7788@gmail.com
+          <h3 className="mt-5 text-xl font-medium">Follow Me</h3>
+          <div className="flex gap-4">
+            <FaFacebook className="bg-green-500 text-white w-8 h-8 p-2 rounded-full"></FaFacebook>
+            <FaLinkedin className="bg-green-500 text-white w-8 h-8 p-2 rounded-full"></FaLinkedin>
+            <FaGithub className="bg-green-500 text-white w-8 h-8 p-2 rounded-full"></FaGithub>
+            <FaWhatsapp className="bg-green-500 text-white w-8 h-8 p-2 rounded-full"></FaWhatsapp>
+          </div>
+        </div>
+        <form className="grid md:w-1/2 gap-5">
+          <input className="border p-2" type="text" placeholder="name" />
+          <input className="border p-2" type="text" placeholder="email" />
+          <textarea
+            className="border p-3 block w-full"
+            col="30"
+            row="30"
+            placeholder="your message.."
+          />
+          <button className="p-2 bg-green-500 rounded" type="submit">
+            Send
+          </button>
+        </form>
+      </div>
     </div>
   );
 };

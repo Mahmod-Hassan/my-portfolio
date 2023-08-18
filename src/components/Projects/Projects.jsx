@@ -18,15 +18,17 @@ const Projects = () => {
       {projects.length &&
         projects.map((project) => (
           <div key={project.id} className="flex flex-col md:flex-row mb-12">
-            <div className="basis-2/3">
+            <div className="md:basis-2/3">
               <h1 className="text-xl font-bold">{project.title}</h1>
               <h3 className="font-medium">{project.type}</h3>
               <Technologies technologies={project.technologies} />
               <Features features={project.features} />
               <Links links={project.links}></Links>
             </div>
-            <div className="basis-1/3 h-[300px] border border-red-400 overflow-hidden hover:overflow-scroll">
-              <img className="w-full" src={project?.img} alt="" />
+            <div className="md:w-1/3 h-[300px] overflow-hidden border border-red-500">
+              <div className="h-max w-full transition-transform duration-[3000ms] ease-linear transform translate-y-0 hover:-translate-y-[calc(100%-300px)] hover:duration-[5000ms]">
+                <img src={project?.img} alt="" />
+              </div>
             </div>
           </div>
         ))}
