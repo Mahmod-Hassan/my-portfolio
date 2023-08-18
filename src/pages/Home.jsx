@@ -17,10 +17,12 @@ const Home = () => {
   return (
     <div className="relative">
       <Banner></Banner>
-      <AboutMe></AboutMe>
-      <Skills></Skills>
-      <Projects></Projects>
-      <ContactMe></ContactMe>
+      <div className="mx-5 md:mx-10">
+        <AboutMe></AboutMe>
+        <Skills></Skills>
+        <Projects></Projects>
+        <ContactMe></ContactMe>
+      </div>
       <button
         onClick={scrollToTop}
         className="fixed bottom-4 right-4 bg-blue-500 text-xl p-4 text-white rounded-full shadow-lg"

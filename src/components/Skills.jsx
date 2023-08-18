@@ -12,7 +12,7 @@ const Skills = () => {
   ];
   const tools = ["Git", "Vs Code", "Chrome Dev Tools"];
   return (
-    <div name="Skill" className="m-5 md:m-16">
+    <div name="Skill" className="md:my-16">
       <h2 className="text-3xl font-bold mb-6 text-gray-900 text-center">
         Skills
       </h2>

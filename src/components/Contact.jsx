@@ -9,10 +9,10 @@ import {
 
 const ContactMe = () => {
   return (
-    <div name="Contact" className="m-10">
+    <div name="Contact" className="my-16">
       <h1 className="text-3xl font-bold text-center my-10">Contact Me</h1>
       <div className="flex flex-col md:flex-row justify-between">
-        <div className="md:w-1/2">
+        <div className="mb-5 md:w-1/2">
           <h3 className="text-xl font-medium">Address</h3>
           <p>Chittagong, Bangladesh</p>
           <FaSquarePhone className="text-xl mr-2 text-green-500 inline" />{" "}
@@ -24,10 +24,25 @@ const ContactMe = () => {
           mahmodhasan7788@gmail.com
           <h3 className="mt-5 text-xl font-medium">Follow Me</h3>
           <div className="flex gap-4">
-            <FaFacebook className="bg-green-500 text-white w-8 h-8 p-2 rounded-full"></FaFacebook>
-            <FaLinkedin className="bg-green-500 text-white w-8 h-8 p-2 rounded-full"></FaLinkedin>
-            <FaGithub className="bg-green-500 text-white w-8 h-8 p-2 rounded-full"></FaGithub>
-            <FaWhatsapp className="bg-green-500 text-white w-8 h-8 p-2 rounded-full"></FaWhatsapp>
+            <a
+              href="https://www.linkedin.com/in/mahmod-hasan-35a599259/"
+              target="_blank"
+            >
+              {" "}
+              <FaLinkedin className="bg-green-500 text-white w-8 h-8 p-2 rounded-full" />
+            </a>
+            <a href="https://www.facebook.com/Mahmod90047/" target="_blank">
+              {" "}
+              <FaFacebook className="bg-green-500 text-white w-8 h-8 p-2 rounded-full" />
+            </a>
+
+            <a href="https://github.com/Mahmod-Hassan" target="_blank">
+              {" "}
+              <FaGithub className="bg-green-500 text-white w-8 h-8 p-2 rounded-full" />
+            </a>
+            <a href="https://web.whatsapp.com/" target="_blank">
+              <FaWhatsapp className="bg-green-500 text-white w-8 h-8 p-2 rounded-full" />
+            </a>
           </div>
         </div>
         <form className="grid md:w-1/2 gap-5">
