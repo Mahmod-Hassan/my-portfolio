@@ -1,4 +1,3 @@
-import React from "react";
 import { FaArrowUp } from "react-icons/fa6";
 import { animateScroll as scroll } from "react-scroll";
 import AboutMe from "../components/AboutMe";

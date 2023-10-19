@@ -3,6 +3,8 @@
     "id": "01",
     "title": "Mobile Bazar",
     "type": "Resell Product",
+    "adminEmail": "mahmod@gmail.com",
+    "adminPassword": "123456",
     "img": "https://i.ibb.co/7g4Xh2t/resell-products.png",
     "technologies": [
       "Tailwind Css",
@@ -38,6 +40,8 @@
     "id": "02",
     "title": "Easy Doc",
     "type": "Documentation",
+    "adminEmail": "mahmod@gmail.com",
+    "adminPassword": "123456",
     "img": "https://i.ibb.co/QMTJzMh/team-project.png",
     "technologies": [
       "Tailwind Css",

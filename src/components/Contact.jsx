@@ -15,33 +15,33 @@ const ContactMe = () => {
         <div className="mb-5 md:w-1/2">
           <h3 className="text-xl font-medium">Address</h3>
           <p>Chittagong, Bangladesh</p>
-          <FaSquarePhone className="text-xl mr-2 text-green-500 inline" />{" "}
+          <FaSquarePhone className="text-xl mr-2 text-gray-800 inline" />{" "}
           +8801314890047 <br />
-          <FaSquarePhone className="text-xl mr-2 text-green-500 inline" />{" "}
+          <FaSquarePhone className="text-xl mr-2 text-gray-800 inline" />{" "}
           +8801962700078
           <br />
-          <FaRegEnvelope className="text-xl mr-2 text-green-500 inline" />{" "}
+          <FaRegEnvelope className="text-xl mr-2 text-gray-800 inline" />{" "}
           mahmodhasan7788@gmail.com
           <h3 className="mt-5 text-xl font-medium">Follow Me</h3>
-          <div className="flex gap-4">
+          <div className="flex gap-4 text-white">
             <a
               href="https://www.linkedin.com/in/mahmod-hasan-35a599259/"
               target="_blank"
             >
               {" "}
-              <FaLinkedin className="bg-green-500 text-white w-8 h-8 p-2 rounded-full" />
+              <FaLinkedin className="bg-gray-800 w-8 h-8 p-2 rounded-full" />
             </a>
             <a href="https://www.facebook.com/Mahmod90047/" target="_blank">
               {" "}
-              <FaFacebook className="bg-green-500 text-white w-8 h-8 p-2 rounded-full" />
+              <FaFacebook className="bg-gray-800 w-8 h-8 p-2 rounded-full" />
             </a>
 
             <a href="https://github.com/Mahmod-Hassan" target="_blank">
               {" "}
-              <FaGithub className="bg-green-500 text-white w-8 h-8 p-2 rounded-full" />
+              <FaGithub className="bg-gray-800 w-8 h-8 p-2 rounded-full" />
             </a>
             <a href="https://web.whatsapp.com/" target="_blank">
-              <FaWhatsapp className="bg-green-500 text-white w-8 h-8 p-2 rounded-full" />
+              <FaWhatsapp className="bg-gray-800 w-8 h-8 p-2 rounded-full" />
             </a>
           </div>
         </div>
@@ -54,7 +54,7 @@ const ContactMe = () => {
             row="30"
             placeholder="your message.."
           />
-          <button className="p-2 bg-green-500 rounded" type="submit">
+          <button className="p-2 bg-gray-800 text-white rounded" type="submit">
             Send
           </button>
         </form>

@@ -5,7 +5,6 @@ import Links from "./Links";
 import Technologies from "./Technologies";
 const Projects = () => {
   const [projects, setProjects] = useState([]);
-  const [loading, setLoading] = useState(false);
   useEffect(() => {
     fetch("projects.json")
       .then((res) => res.json())
@@ -21,6 +20,12 @@ const Projects = () => {
             <div className="md:basis-2/3">
               <h1 className="text-xl font-bold">{project.title}</h1>
               <h3 className="font-medium">{project.type}</h3>
+              {project?.adminEmail && (
+                <h5 className="font-bold text-sm my-5">
+                  admin email: {project?.adminEmail} &nbsp; admin password:{" "}
+                  {project?.adminPassword}
+                </h5>
+              )}
               <Technologies technologies={project.technologies} />
               <Features features={project.features} />
               <Links links={project.links}></Links>
