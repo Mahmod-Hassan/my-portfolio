@@ -41,7 +41,7 @@ const Skills = () => {
         </div>
 
         <div className="p-6 rounded-lg shadow-md">
-          <h3 className="text-lg font-semibold mb-3">Back-End</h3>
+          <h3 className="text-lg font-semibold mb-3">Tools</h3>
           <ul>
             {tools.map((tool, i) => (
               <li key={i} className="flex gap-2 items-center">

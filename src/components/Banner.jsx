@@ -1,4 +1,5 @@
 import { FaDownload } from "react-icons/fa6";
+
 const Banner = () => {
   return (
     <div
@@ -20,13 +21,19 @@ const Banner = () => {
           well-organized code, I strive to create applications that deliver
           exceptional user experiences
         </p>
-        <a className="block" href="resume.pdf" target="_blank">
+
+        <a
+          target="_blank"
+          href="https://drive.google.com/file/d/1aK0LaUybHyFteq3JoLljbODDXBLALnmw/view?usp=drive_link"
+        >
           <button className="flex items-center px-4 gap-4 py-2 bg-blue-500 text-gray-50 rounded">
             <span>Download Resume</span> <FaDownload></FaDownload>
           </button>
         </a>
+        {/* <button onClick={handleDownload}>Download Resume</button> */}
       </div>
     </div>
   );
 };
 export default Banner;
+// href="https://drive.google.com/file/d/1aK0LaUybHyFteq3JoLljbODDXBLALnmw/view?usp=sharing"
