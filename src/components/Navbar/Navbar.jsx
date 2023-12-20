@@ -1,11 +1,11 @@
 import { useState } from "react";
 import {
   FaBars,
-  FaCross,
   FaFacebook,
   FaGithub,
   FaLinkedin,
   FaWhatsapp,
+  FaXmark,
 } from "react-icons/fa6";
 import { Link as ScrollLink } from "react-scroll";
 import "./Navbar.css";
@@ -16,10 +16,10 @@ const Navbar = () => {
   const routes = ["Home", "About", "Skill", "Projects", "Contact"];
 
   return (
-    <aside className="bg-gray-800 text-gray-100 p-2 md:p-5 md:h-screen fixed w-full md:w-auto z-10 top-0">
-      <div className="md:hidden flex justify-between">
+    <aside className="bg-gray-800 text-gray-100 p-2 md:p-5 md:h-screen w-full sticky top-0">
+      <div className="flex justify-between md:hidden">
         <img
-          className="w-16 h-16 rounded-full bg-green-200"
+          className="w-16 h-16 rounded-full bg-green-200 animate-vertical"
           src="https://i.ibb.co/DKmfKhQ/my-image-removebg-preview.png"
           alt="my-photo"
         />
@@ -29,7 +29,7 @@ const Navbar = () => {
             onClick={() => setOpen(false)}
             type="button"
           >
-            <FaCross />{" "}
+            <FaXmark />{" "}
           </button>
         ) : (
           <button
@@ -44,7 +44,7 @@ const Navbar = () => {
 
       <div className={` text-center ${open ? "block" : "hidden"} md:block`}>
         <img
-          className="w-28 h-28 mx-auto rounded-full bg-green-200"
+          className="w-28 h-28 mx-auto hidden md:block rounded-full bg-green-200 animate-top"
           src="https://i.ibb.co/DKmfKhQ/my-image-removebg-preview.png"
           alt="my-photo"
         />
@@ -59,7 +59,7 @@ const Navbar = () => {
         </div>
 
         <ul className="space-y-5">
-          <li className="flex md:flex-col gap-5 text-center md:text-left">
+          <li className="flex md:flex-col gap-5 text-center md:text-left animate-left">
             {routes.map((route, i) => (
               <ScrollLink
                 activeClass="active"

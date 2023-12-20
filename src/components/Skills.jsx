@@ -1,16 +1,30 @@
 import { FaCheck } from "react-icons/fa6";
 
 const Skills = () => {
-  const frontend = ["HTML", "CSS", "Tailwind CSS", "JavaScript", "React"];
+  const frontend = [
+    "Tailwind CSS",
+    "JavaScript",
+    "Typescript",
+    "React",
+    "Next Js",
+    "Redux",
+  ];
   const backend = [
     "Node js",
     "MongodDB",
     "Express.js",
     "Mongoose",
-    "Firebase",
     "JWT",
+    "Next js",
   ];
-  const tools = ["Git", "Vs Code", "Chrome Dev Tools"];
+  const tools = [
+    "Git",
+    "Vs Code",
+    "Chrome Dev Tools",
+    "Netlify",
+    "Vercel",
+    "Firebase",
+  ];
   return (
     <div name="Skill" className="md:my-16">
       <h2 className="text-3xl font-bold mb-6 text-gray-900 text-center">

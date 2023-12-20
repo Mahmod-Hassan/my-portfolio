@@ -2,8 +2,8 @@ import React from "react";
 
 const AboutMe = () => {
   return (
-    <div name="About">
-      <h1 className="text-3xl text-center my-10 font-bold">About Me</h1>
+    <div name="About" className="my-10">
+      <h1 className="text-3xl text-center font-bold">About Me</h1>
       {/* <div className="flex flex-col lg:flex-row"> */}
       {/* <div className="lg:w-1/2">
           <img
@@ -12,7 +12,7 @@ const AboutMe = () => {
             alt=""
           />
         </div> */}
-      <div className="px-10 space-y-6 text-lg">
+      <div className="space-y-6 text-lg">
         <p>
           My name is Mahmod Hasan from Chittagong, Bangladesh. Now I am studying
           for my 4th years of political science at Syedabad Adarsha

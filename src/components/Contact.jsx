@@ -11,8 +11,8 @@ const ContactMe = () => {
   return (
     <div name="Contact" className="my-16">
       <h1 className="text-3xl font-bold text-center my-10">Contact Me</h1>
-      <div className="flex flex-col md:flex-row justify-between">
-        <div className="mb-5 md:w-1/2">
+      <div className="flex flex-col lg:flex-row lg:justify-between">
+        <div className="mb-5 w-full lg:w-1/2">
           <h3 className="text-xl font-medium">Address</h3>
           <p>Chittagong, Bangladesh</p>
           <FaSquarePhone className="text-xl mr-2 text-gray-800 inline" />{" "}
@@ -45,7 +45,7 @@ const ContactMe = () => {
             </a>
           </div>
         </div>
-        <form className="grid md:w-1/2 gap-5">
+        <form className="grid w-full lg:w-1/2 gap-5">
           <input className="border p-2" type="text" placeholder="name" />
           <input className="border p-2" type="text" placeholder="email" />
           <textarea

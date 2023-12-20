@@ -16,7 +16,7 @@ const Home = () => {
   return (
     <div className="relative">
       <Banner></Banner>
-      <div className="mx-5 md:mx-10">
+      <div className="px-5 lg:mx-10">
         <AboutMe></AboutMe>
         <Skills></Skills>
         <Projects></Projects>
@@ -24,7 +24,7 @@ const Home = () => {
       </div>
       <button
         onClick={scrollToTop}
-        className="fixed bottom-4 right-4 bg-blue-500 text-xl p-4 text-white rounded-full shadow-lg"
+        className="fixed bottom-4 right-4 bg-blue-500 text-xl p-4 text-white rounded-full shadow-lg animate-[bounce_1s_5]"
         type="button"
       >
         <FaArrowUp></FaArrowUp>

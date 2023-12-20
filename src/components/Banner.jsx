@@ -4,10 +4,10 @@ const Banner = () => {
   return (
     <div
       name="Home"
-      className="flex bg-[url('https://i.ibb.co/yFByW2M/banner.png')] bg-no-repeat bg-cover text-center items-center text-white h-screen"
+      className="flex bg-[url('https://i.ibb.co/yFByW2M/banner.png')] bg-no-repeat bg-cover text-center items-center text-white h-screen overflow-hidden border-red-500"
     >
-      <div className="grid place-items-center">
-        <h3 className="text-2xl">Welcome I am</h3>
+      <div className="grid place-items-center animate-pulse">
+        <h3 className="text-2xl">Welcome, I am</h3>
         <h1 className="text-blue-500 text-3xl md:text-5xl font-bold">
           Mahmod Hasan
         </h1>
@@ -30,7 +30,6 @@ const Banner = () => {
             <span>Download Resume</span> <FaDownload></FaDownload>
           </button>
         </a>
-        {/* <button onClick={handleDownload}>Download Resume</button> */}
       </div>
     </div>
   );
